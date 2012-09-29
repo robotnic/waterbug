@@ -10,6 +10,10 @@ there is no possibility to debug javascript.
 If you have a mac use this: https://developer.apple.com/technologies/safari/developer-tools.html
 if you have Android 4.x use adb and chrome remote debugger
 
+Update: for iphone you can you 
+http://debug.phonegap.com/ 
+that's very nice, but the console didn't work for me
+
 This is free software, do with if what you want.
 */
 
