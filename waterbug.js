@@ -16,7 +16,7 @@ that's very nice, but the console didn't work for me
 
 This is free software, do with if what you want.
 */
-
+(function() {
         var waterbug=(function (){
                 var vararray=[];                
                 var orientation=0;
@@ -268,6 +268,10 @@ This is free software, do with if what you want.
 
                 }
         })();
-
-
-
+        if ( typeof define === "function" && define.amd ) {
+            define(function () { return waterbug; } );
+        }
+        else {
+            window.waterbug = waterbug;
+        }
+})();
